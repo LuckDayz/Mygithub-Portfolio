@@ -1,5 +1,5 @@
-// import { IoClose} from "react-icons/io5";
-// import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose} from "react-icons/io5";
+import { GiHamburgerMenu } from "react-icons/gi";
 import {Link} from 'react-router-dom';
 
 const Header = () => {
@@ -26,10 +26,10 @@ const Header = () => {
         </ul>
       </nav>
       <button className="button-btn">Go to Github</button>
-      {/* <GiHamburgerMenu className="open-sidebar"  onClick={open}/> */}
+      <GiHamburgerMenu className="open-sidebar"  onClick={open}/>
       <nav className="mobile">
-        {/* <IoClose className="close-sidebar"
-          onClick={close}/> */}
+        <IoClose className="close-sidebar"
+          onClick={close}/>
         <ul className="nav-menu">
           <li>
             <Link to="/">Home</Link>
