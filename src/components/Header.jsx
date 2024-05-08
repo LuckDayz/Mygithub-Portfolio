@@ -3,7 +3,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import {Link} from 'react-router-dom';
 
 const Header = () => {
-
   open = () => document.querySelector(".mobile").style.display = "flex";
   close = () => document.querySelector(".mobile").style.display = "none"
 
